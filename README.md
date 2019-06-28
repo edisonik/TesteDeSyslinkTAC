@@ -1,66 +1,37 @@
-# artesanato_brasileiro
-Aplicação Django/Python para ajudar o Programa do Artesanato Brasileiro a atingir seus objetivos
+## Welcome to GitHub Pages
 
+You can use the [editor on GitHub](https://github.com/edisonik/TesteDeSyslinkTAC/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-# Procedimentos para instalar e rodar a aplicação
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-A seguir tem-se os passos para rodar a aplicação
+### Markdown
 
-## Clone do Repositório
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-A primeira etapa é clonar o projeto para a máquina.
+```markdown
+Syntax highlighted code block
 
-```
-git clone https://github.com/edisonik/artesanato_brasileiro.git
-```
+# Header 1
+## Header 2
+### Header 3
 
-## Mudar para o diretório clonado
+- Bulleted
+- List
 
-Em seguida deve-se mudar para o diretorio de trabalho.
+1. Numbered
+2. List
 
-```
-cd artesanato_brasileiro
-```
+**Bold** and _Italic_ and `Code` text
 
-## Criar uma virtualenv para o projeto
-
-Deve-se criar uma virtualevn para ser o ambiente do projeto.
-
-Se não tiver o virtualenv instalado deve rodar os seguintes comandos:
-
-```
-sudo apt-get update
-sudo apt-get install virtualenv
+[Link](url) and ![Image](src)
 ```
 
-Com o virtualenv já instalado agora basta criar a env:
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-```
-virtualenv  –p  /usr/bin/python3 semantic
-```
+### Jekyll Themes
 
-Para ativar a virtualenv é preciso rodar o seguinte comando. Note que sempre que for exetucar o projeto ou docificar, deve-se rodar esse comando para mudar para o ambiente de desenvolvimento.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edisonik/TesteDeSyslinkTAC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-```
-source semantic/bin/activate
-```
+### Support or Contact
 
-## Instalar o requirements
-
-Para instalar os requirements vamos rodar o seguinte comando:
-
-```
-pip install requirements.txt
-```
-
-Observe que sempre que os requisitos do sistema forem atualizado o arquivo do requirements.txt deve ser atualizado.
-
-## Rodar o projeto
-
-Com o docker e o docker-compose já instalado, para subir a aplicação no container basta rodar o seguinte comando:
-
-```
-docker-compose up --biuld -d
-```
-
-Se tudo ocorrer como esperado, poderá vizualizar a aplicação acessando 127.0.0.1:7000
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
